@@ -1,0 +1,20 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+
+# Proxy
+socks_user=<socket user>
+SOCKS_USER=<socket user>
+socks5_passwd=<password>
+socks5_password=<password>
+socks5_passwd=<password>
+SOCKS5_PASSWORD=<password>
+
+
+# Set no proxy
+no_proxy=127.0.0.1,172.17.0.0/24
+NO_PROXY=127.0.0.1,172.17.0.0/24
+
+http_proxy="<http proxy>"
+https_proxy="<https proxy>"
+HTTP_PROXY="<http proxy>"
+HTTPS_PROXY="<https proxy>"
+socks_proxy="<socket proxy>"
