@@ -3,6 +3,10 @@ FROM ubuntu:14.04
 MAINTAINER Christoph Wiechert <wio@psitrax.de>
 MAINTAINER https://github.com/henszey
 
+COPY apt.conf /etc/apt/apt.conf
+COPY enviroment /etc/enviroment
+RUN . /etc/enviroment
+
 RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get install -y nodejs
